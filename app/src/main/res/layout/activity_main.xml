@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC4C4"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textColor="#B9005B"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="410dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="104dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="to"
+        android:textColor="#B9005B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="140dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="Mini Calculator !"
+        android:textColor="#B9005B"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="188dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="372dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="188dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="264dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="496dp"
+        android:backgroundTint="#EE6983"
+        android:text="+ (ADD)"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="496dp"
+        android:backgroundTint="#EE6983"
+        android:text="- (SUB)"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="174dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="264dp"
+        android:text="Number 1"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="174dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="372dp"
+        android:text="Number 2"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+</RelativeLayout>
